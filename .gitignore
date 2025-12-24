@@ -1,0 +1,21 @@
+# --- CRITICO: SICUREZZA (Non cancellare mai queste righe) ---
+.env
+.env.local
+
+# --- CARTELLE DI LAVORO E OUTPUT (Il tuo setup attuale) ---
+*.wav
+/FROM_TABLES
+/X - BOX
+/.tmp_player
+/SONGS
+/WORK_IN_PROGRESS
+0-LOCAL/
+
+# --- PYTHON (File compilati inutili) ---
+__pycache__/
+*.py[cod]
+
+# --- FILE DI SISTEMA (Mac/Windows) ---
+.DS_Store
+Thumbs.db
+*.log
